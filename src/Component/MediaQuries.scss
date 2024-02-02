@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .MainLogic{
+        margin-top: 30vh;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .Main{
+padding: 0em 6.5em;
+}
+    .MainLogic{
+        margin-top: 40vh;
+    }
+    .methodtouse{
+        width: 120vw;
+        margin-left: 10vw;
+    }
+    footer{
+        margin-left: 30vw;
+    }
+
+  }

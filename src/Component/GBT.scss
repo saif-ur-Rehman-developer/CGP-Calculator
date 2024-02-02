@@ -1,0 +1,78 @@
+.MainLogic{
+    z-index: 2;
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 24vh;
+    margin-bottom: 13vh;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+    label{
+        display: block;
+        margin: 2% 30%;
+        font-size: 17px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    select,input{
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 0 5px;
+    }
+    option{
+        font-size: 14px;
+
+    }
+    select,option, input{
+        color: #4C3A90;
+        border: 1px solid black;
+    }
+    .FinalGPA{
+        color: #4C3A90;
+        font-size: 18px;
+        font-family: cursive;
+        margin-top: 10px;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top:30px;
+
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        cursor: pointer;
+        width: 130px;
+        height: 50px;
+        background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+        border-radius: 30px;
+        border: 1px solid #8F9092;
+        transition: all 0.2s ease;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #606060;
+        text-shadow: 0 1px #fff;
+      }
+      
+      button:hover {
+        box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+      }
+      
+      button:active {
+        box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+      }
+      
+      button:focus {
+        box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+      }
+      
+      
+      
+     }
